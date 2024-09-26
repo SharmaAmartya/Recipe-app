@@ -1,0 +1,8 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "psotgresql://postgres:mysecretpassword@localhost:5432/recipe-app-db"
+}
